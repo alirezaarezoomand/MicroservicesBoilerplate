@@ -1,7 +1,6 @@
-﻿namespace Seedworks.Core.Events
+﻿namespace Seedworks.Core.Events;
+
+public interface IEventHandler<in TEvent> where TEvent : IEvent
 {
-    public interface IEventHandler<in TEvent> where TEvent : IEvent
-    {
-        Task HandleAsync(TEvent eventToHandle);
-    }
+    Task HandleAsync(TEvent eventToHandle);
 }

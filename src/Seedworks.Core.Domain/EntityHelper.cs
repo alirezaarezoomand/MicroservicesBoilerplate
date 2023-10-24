@@ -1,19 +1,18 @@
 ﻿using System.Linq.Expressions;
 
-namespace Seedworks.Core.Domain
-{
-    public class EntityHelper
-    {
-        public static Expression<Func<TEntity, bool>> CreateEqualityExpressionForId<TEntity, TKey>(TKey id)
-            where TEntity : Entity<TKey>
-        {
-            var lambdaParam = Expression.Parameter(typeof(TEntity));
-            var lambdaBody = Expression.Equal(
-                Expression.PropertyOrField(lambdaParam, nameof(Entity<TKey>.Id)),
-                Expression.Constant(id, typeof(TKey))
-            );
+namespace Seedworks.Core.Domain;
 
-            return Expression.Lambda<Func<TEntity, bool>>(lambdaBody, lambdaParam);
-        }
+public class EntityHelper
+{
+    public static Expression<Func<TEntity, bool>> CreateEqualityExpressionForId<TEntity, TKey>(TKey id)
+        where TEntity : Entity<TKey>
+    {
+        var lambdaParam = Expression.Parameter(typeof(TEntity));
+        var lambdaBody = Expression.Equal(
+            Expression.PropertyOrField(lambdaParam, nameof(Entity<TKey>.Id)),
+            Expression.Constant(id, typeof(TKey))
+        );
+
+        return Expression.Lambda<Func<TEntity, bool>>(lambdaBody, lambdaParam);
     }
 }

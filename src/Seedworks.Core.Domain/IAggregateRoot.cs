@@ -1,11 +1,10 @@
 ﻿using Seedworks.Core.Events;
 
-namespace Seedworks.Core.Domain
-{
-    public interface IAggregateRoot
-    {
-        IEnumerable<IEvent> Events { get; }
+namespace Seedworks.Core.Domain;
 
-        void ClearEvents();
-    }
+public interface IAggregateRoot
+{
+    IEnumerable<IEvent> Events { get; }
+
+    void ClearEvents();
 }

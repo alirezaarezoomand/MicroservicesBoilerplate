@@ -1,7 +1,6 @@
-﻿namespace Seedworks.Core.Events
+﻿namespace Seedworks.Core.Events;
+
+public interface IEvent
 {
-    public interface IEvent
-    {
-        public DateTime OccuredOn { get; protected set; }
-    }
+    public DateTime OccuredOn { get; protected set; }
 }

@@ -1,7 +1,6 @@
-﻿namespace Seedworks.Core.Domain
+﻿namespace Seedworks.Core.Domain;
+
+public interface IIdGenerator
 {
-    public interface IIdGenerator
-    {
-        public long GetNewId();
-    }
+    public long GetNewId();
 }
