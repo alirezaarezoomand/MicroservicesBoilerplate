@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seedworks", "Seedworks", "{63865527-D5E4-484D-BBBC-4C219B2F6865}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7370CCCA-FC31-4973-84E5-FA8C061043B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AAA19D54-47B6-4BF0-ACD7-171D8C449C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Endpoint", "Endpoint", "{0E1F0228-4C7C-45CD-932A-C9F83B30BBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{7F8E7157-8188-4DD7-8EAF-844D079724FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Domain", "Seedworks.Core.Domain\Seedworks.Core.Domain.csproj", "{80B5938C-297A-4D09-9A8A-E69AB7319F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Events.Abstractions", "Seedworks.Core.Events.Abstractions\Seedworks.Core.Events.Abstractions.csproj", "{343A86A7-FC0A-40BC-98B5-B2A566867F6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B5938C-297A-4D09-9A8A-E69AB7319F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B5938C-297A-4D09-9A8A-E69AB7319F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B5938C-297A-4D09-9A8A-E69AB7319F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B5938C-297A-4D09-9A8A-E69AB7319F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343A86A7-FC0A-40BC-98B5-B2A566867F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343A86A7-FC0A-40BC-98B5-B2A566867F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343A86A7-FC0A-40BC-98B5-B2A566867F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343A86A7-FC0A-40BC-98B5-B2A566867F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7370CCCA-FC31-4973-84E5-FA8C061043B7} = {63865527-D5E4-484D-BBBC-4C219B2F6865}
+		{AAA19D54-47B6-4BF0-ACD7-171D8C449C79} = {63865527-D5E4-484D-BBBC-4C219B2F6865}
+		{0E1F0228-4C7C-45CD-932A-C9F83B30BBB5} = {63865527-D5E4-484D-BBBC-4C219B2F6865}
+		{7F8E7157-8188-4DD7-8EAF-844D079724FB} = {63865527-D5E4-484D-BBBC-4C219B2F6865}
+		{80B5938C-297A-4D09-9A8A-E69AB7319F6F} = {7370CCCA-FC31-4973-84E5-FA8C061043B7}
+		{343A86A7-FC0A-40BC-98B5-B2A566867F6D} = {7370CCCA-FC31-4973-84E5-FA8C061043B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9593E6A8-CF7E-46AD-B472-9FD5FC49C43D}
+	EndGlobalSection
+EndGlobal
