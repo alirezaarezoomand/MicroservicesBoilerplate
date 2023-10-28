@@ -2,5 +2,5 @@
 
 public interface IEvent
 {
-    public DateTime OccuredOn { get; protected set; }
+    public DateTime OccuredOn { get; }
 }
