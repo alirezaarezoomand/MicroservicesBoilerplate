@@ -13,21 +13,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Endpoint", "Endpoint", "{0E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{7F8E7157-8188-4DD7-8EAF-844D079724FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Domain", "Seedworks.Core.Domain\Seedworks.Core.Domain.csproj", "{80B5938C-297A-4D09-9A8A-E69AB7319F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Domain", "Seedworks.Core.Domain\Seedworks.Core.Domain.csproj", "{80B5938C-297A-4D09-9A8A-E69AB7319F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Events.Abstractions", "Seedworks.Core.Events.Abstractions\Seedworks.Core.Events.Abstractions.csproj", "{343A86A7-FC0A-40BC-98B5-B2A566867F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Events.Abstractions", "Seedworks.Core.Events.Abstractions\Seedworks.Core.Events.Abstractions.csproj", "{343A86A7-FC0A-40BC-98B5-B2A566867F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Commands", "Seedworks.Core.Commands\Seedworks.Core.Commands.csproj", "{005DC5F6-7C00-40F3-9BB7-6DD9CCA006A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Commands", "Seedworks.Core.Commands\Seedworks.Core.Commands.csproj", "{005DC5F6-7C00-40F3-9BB7-6DD9CCA006A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Commands.Abstractions", "Seedworks.Core.Commands.Abstractions\Seedworks.Core.Commands.Abstractions.csproj", "{A4ABE851-9705-46A9-9635-29990584FD3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Commands.Abstractions", "Seedworks.Core.Commands.Abstractions\Seedworks.Core.Commands.Abstractions.csproj", "{A4ABE851-9705-46A9-9635-29990584FD3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Events", "Seedworks.Core.Events\Seedworks.Core.Events.csproj", "{72746C2C-58C4-4634-80C2-B5D1D2E4AF32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Events", "Seedworks.Core.Events\Seedworks.Core.Events.csproj", "{72746C2C-58C4-4634-80C2-B5D1D2E4AF32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Logging", "Seedworks.Core.Logging\Seedworks.Core.Logging.csproj", "{601A4AA0-D173-4252-B625-5E2EF14813DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Logging", "Seedworks.Core.Logging\Seedworks.Core.Logging.csproj", "{601A4AA0-D173-4252-B625-5E2EF14813DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Queries", "Seedworks.Core.Queries\Seedworks.Core.Queries.csproj", "{17612605-D21C-4206-A5F1-A5D1DF6D4A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Queries", "Seedworks.Core.Queries\Seedworks.Core.Queries.csproj", "{17612605-D21C-4206-A5F1-A5D1DF6D4A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Core.Queries.Abstractions", "Seedworks.Core.Queries.Abstractions\Seedworks.Core.Queries.Abstractions.csproj", "{C19EB723-6F47-41C1-86A1-7BABB67D998A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Core.Queries.Abstractions", "Seedworks.Core.Queries.Abstractions\Seedworks.Core.Queries.Abstractions.csproj", "{C19EB723-6F47-41C1-86A1-7BABB67D998A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seedworks.Infrastructure.Persistence.EntityFramework", "Seedworks.Infrastructure.Persistence.EntityFramework\Seedworks.Infrastructure.Persistence.EntityFramework.csproj", "{A76B4CA9-18DF-450C-9E65-EC1708E7FA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedworks.Endpoint.WebApi", "Seedworks.Endpoint.WebApi\Seedworks.Endpoint.WebApi.csproj", "{0487DA13-9F71-4072-90BD-4AB393038EBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,14 @@ Global
 		{C19EB723-6F47-41C1-86A1-7BABB67D998A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C19EB723-6F47-41C1-86A1-7BABB67D998A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C19EB723-6F47-41C1-86A1-7BABB67D998A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76B4CA9-18DF-450C-9E65-EC1708E7FA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76B4CA9-18DF-450C-9E65-EC1708E7FA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76B4CA9-18DF-450C-9E65-EC1708E7FA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76B4CA9-18DF-450C-9E65-EC1708E7FA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0487DA13-9F71-4072-90BD-4AB393038EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0487DA13-9F71-4072-90BD-4AB393038EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0487DA13-9F71-4072-90BD-4AB393038EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0487DA13-9F71-4072-90BD-4AB393038EBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +96,8 @@ Global
 		{601A4AA0-D173-4252-B625-5E2EF14813DF} = {7370CCCA-FC31-4973-84E5-FA8C061043B7}
 		{17612605-D21C-4206-A5F1-A5D1DF6D4A2F} = {7370CCCA-FC31-4973-84E5-FA8C061043B7}
 		{C19EB723-6F47-41C1-86A1-7BABB67D998A} = {7370CCCA-FC31-4973-84E5-FA8C061043B7}
+		{A76B4CA9-18DF-450C-9E65-EC1708E7FA1F} = {AAA19D54-47B6-4BF0-ACD7-171D8C449C79}
+		{0487DA13-9F71-4072-90BD-4AB393038EBF} = {0E1F0228-4C7C-45CD-932A-C9F83B30BBB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9593E6A8-CF7E-46AD-B472-9FD5FC49C43D}
